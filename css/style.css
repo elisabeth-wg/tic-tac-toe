@@ -1,0 +1,149 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/******************************************
+/* Body
+/*******************************************/
+
+body {
+    background-image: url("images/1920x1080tictactoeBeachBranches.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+/******************************************
+/* Text
+/*******************************************/
+
+h1,
+h2,
+h6,
+ul {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+ul {
+    font-size: 2rem;
+    line-height: 125%;
+}
+
+.button {
+    font-size: 1.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/******************************************
+/* Grid
+/*******************************************/
+
+.grid_container {
+    padding: 3.75%;
+    display: grid;
+    grid-template-columns: 25% 33% 25%;
+    grid-template-rows: 30% 50%;
+    grid-column-gap: 5%;
+    grid-row-gap: 50px;
+}
+
+
+.grid_item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.grid_item2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid_item3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+/******************************************
+/* Inputs
+/*******************************************/
+
+.inputs {
+    border: 1.5px solid gray;
+    background: white;
+    border-radius: 4px;
+    padding: 0 1.5% 2% 5%;
+    box-shadow: 0 0 10px gray;
+}
+
+.inputBox {
+    line-height: 1.7rem;
+    border-radius: 4px 0 0 4px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25rem;
+    border: 1.5px solid #E2C7B2;
+}
+
+
+/******************************************
+/* Buttons
+/*******************************************/
+
+.button {
+    border-radius: 0 4px 4px 0;
+    border: 1.5px solid #E2C7B2;
+    background-color: #E2C7B2;
+}
+
+/******************************************
+/* List
+/*******************************************/
+
+
+.listOutput {
+    margin-top: 30%;
+    margin-left: 30%;
+    list-style: none;
+    text-align: left;
+}
+
+/******************************************
+/* Book Cover
+/*******************************************/
+
+.bookcover {
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 90%;
+    box-shadow: 0 0 10px black;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+}
