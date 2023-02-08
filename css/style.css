@@ -59,63 +59,68 @@ ul {
 /* Grid
 /*******************************************/
 .wrapper {
-    /* margin-top: 7%;
-    margin-left: 23%;
-    margin-right: 28%; */
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    /* gap: 70px; */
+    padding: 3.75%;
+    margin-top: 3%;
+    margin-right: 19%;
+    margin-left: 17%;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 15% 15% 15%;
+    grid-column-gap: 5%;
+    grid-row-gap: 30%;
 }
 
-.one {
+.playerOneROne, .playerOneRTwo, .playerOneRThree, .playerOneRFour, .playerOneRFive, .playerOneRSix, .playerOneRSeven, .playerOneREight, .playerOneRNine {
+    width: 70%;
+}
+
+#one {
     grid-column: 1;
     grid-row: 1;
 }
-.pOneROne, .pOneRTwo, .pOneRThree, .pOneRFour, .pOneRFive, .pOneRSix, .pOneRSeven, .pOneREight, .pOneRNine {
-    width: 30%;
-}
 
-.two {
+#two {
     grid-column: 2;
     grid-row: 1;
 }
 
-.three {
-    grid-column: 3;
+#three {
+   grid-column: 3;
     grid-row: 1;
 }
 
-.four {
+#four {
     grid-column: 1;
     grid-row: 2;
 }
 
-.five {
+#five {
     grid-column: 2;
     grid-row: 2;
 }
 
-.six {
+#six {
     grid-column: 3;
     grid-row: 2;
 }
 
-.seven {
+#seven {
     grid-column: 1;
     grid-row: 3;
 }
 
-.eight {
+#eight {
     grid-column: 2;
     grid-row: 3;
 }
 
-
-
-.nine {
+#nine {
     grid-column: 3;
     grid-row: 3;
+}
+
+.hidden {
+    display: none;
 }
 
 /******************************************
